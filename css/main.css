@@ -1,0 +1,619 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.ahmed .main ul li {
+    color: aliceblue;
+    list-style-type: none;
+    display: flex;
+    font-size: 20px;
+    display: inline;
+    justify-content: space-around;
+    margin: 0px 20px;
+    cursor: pointer;
+
+}
+
+.ahmed .main ul li a:hover {
+
+    color: rgb(254, 3, 3);
+}
+
+.ahmed .main ul span {
+    border: 2px solid white;
+    border-radius: 10px 10px;
+    padding: 13px
+}
+
+.ahmed .main ul span:hover {
+    color: aliceblue;
+    transition: 0.5s;
+    background-color: brown;
+    box-shadow: 0px 0px 20px 0px rgb(66, 66, 66);
+}
+
+.ahmed .main .tel {
+    margin-right: 50px;
+    font-size: 40px;
+    color: aliceblue;
+    float: right;
+    list-style-type: none;
+}
+
+.ahmed .main .tel span {
+    color: rgb(244, 12, 35);
+}
+
+.ahmed .main .tel .c {
+    color: blue;
+}
+
+.ahmed .main {
+    margin-left: 40px;
+    margin-top: 30px;
+    padding: 20px 100px;
+
+
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.919);
+}
+
+.ahmed .home img {
+    width: 38%;
+    height: auto;
+    position: relative;
+    top: 150px;
+    left: 150px;
+}
+
+.ahmed .ar {
+    float: right;
+}
+
+.ahmed .ar>h1 {
+    margin-left: 100px;
+    padding: 10px 30px;
+    font-size: 60px;
+    color: aliceblue;
+
+}
+
+.ahmed .ar>p {
+    text-align: center;
+    margin-right: 30px;
+    font-size: 23px;
+    color: aliceblue;
+
+
+}
+
+.ahmed .ar>button {
+    color: aliceblue;
+    border-radius: 10px 10px;
+    background-color: rgb(225, 18, 18);
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 255, 0.606);
+    font-size: 30px;
+    padding: 3px 30px;
+    margin-top: 40px;
+
+}
+
+.ahmed .ar>button:hover {
+    transition: 0.5s;
+    color: aliceblue;
+    background-color: blue;
+    box-shadow: 0px 0px 20px 5px rgba(242, 34, 34, 0.606);
+}
+
+.ahmed {
+    height: 100vh;
+}
+
+.ai {
+    height: 100px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.ai>h1 {
+
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.all {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.a1 {
+    color: aliceblue;
+
+    margin: 7px 5px;
+    padding: 10px 0px;
+    width: 21%;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(54, 54, 56);
+    box-shadow: 0px 0px 10px 0px rgba(79, 78, 78, 0.823);
+
+
+}
+
+.a1:hover {
+    background-color: beige;
+    color: rgb(198, 9, 9);
+    transition: 0.8s;
+}
+
+.h1 {
+    margin-top: 78px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.h1>p {
+    padding-top: 20px;
+    font-size: 17px;
+}
+
+.h2 {
+    margin-top: 78px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.h2>p {
+    padding-top: 20px;
+    font-size: 17px;
+}
+
+.bro {
+    margin-top: 30px;
+    color: aliceblue;
+    border: 10px 20px solid red;
+    text-align: center;
+
+
+
+}
+
+.ahmed .main ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.s1 .bro {
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
+    background-color: rgba(62, 61, 61, 0.724);
+
+    height: auto;
+
+    margin: 20px;
+    margin-left: 30px;
+
+}
+
+.s1 .bro .top {
+    display: flex;
+    text-align: right;
+    justify-content: center;
+
+}
+
+.s1 .bro .s2 {
+    margin: 10px 20px;
+    font-size: 25px;
+
+}
+
+input {
+    background-color: rgb(66, 60, 60);
+    width: 200px;
+    height: 25px;
+}
+
+textarea {
+    background-color: rgb(66, 60, 60);
+}
+
+.s1 .bro .s4 {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.s1 .bro .s4 input {
+    width: 300px;
+}
+
+.s1 .bro .s5 {
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.s1 .bro .s9 {
+    width: 100px;
+    height: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(237, 14, 14);
+    color: azure;
+    box-shadow: 0px 0px 4px 0px white;
+    border-radius: 5px 5px;
+}
+
+.d1 .d2 {
+    border-left: 5px solid red;
+    border-right: 5px solid red;
+    background-color: rgba(62, 61, 61, 0.724);
+    width: 60%;
+    height: 200px;
+
+    margin: 20px;
+}
+
+.d1 .d2>h1 {
+    text-align: center;
+    color: aliceblue;
+    padding: 25px;
+}
+
+.d1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.d1 .d2 {
+    color: aliceblue;
+
+}
+
+.d1 .d2 .d3 {
+    color: rgb(237, 13, 35);
+    padding-right: 5px;
+    float: right;
+}
+
+.d1 .d2 .d5 {
+    color: aliceblue;
+}
+
+.d1 .d2 .d6 {
+    padding-left: 5px;
+}
+
+.ahmed .main .toggler {
+    display: none;
+}
+
+.ahmed .main .toggler {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.g1 {
+    display: flex;
+    justify-content: center;
+}
+
+.g1 .f1 {
+    margin-top: 30px;
+    color: aliceblue;
+    border: 10px 20px solid red;
+    text-align: center;
+
+}
+
+.g1 .f1 {
+    border-top: 5px solid red;
+    border-bottom: 5px solid red;
+    background-color: rgba(62, 61, 61, 0.724);
+    width: 30%;
+    height: auto;
+    margin: 20px;
+
+}
+
+.g1 .f1 .f2 {
+    text-align: left;
+    padding: 10px 20px;
+
+}
+
+.g1 .f1 .f3 {
+    text-align: left;
+    padding: 10px 20px;
+}
+
+.g1 .f1 .f4 {
+    text-align: left;
+    padding: 10px 20px;
+}
+
+#cdl34 {
+    text-align: right;
+}
+
+.f1>iframe {
+    height: 40%;
+}
+
+.f1 #bdl15 {
+    color: #f40909;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.f1 #bdl15:hover {
+
+    border-radius: 100%;
+    padding: 10px;
+    color: black;
+    background-color: #f40909;
+}
+
+
+@media (max-width : 740px) {
+    .ahmed .main ul li {
+        display: none;
+    }
+    .ahmed .main .tel{
+      position: relative;
+      left: 100px;
+    }
+
+    .ahmed .main .toggler{
+        display: block;
+        position: relative;
+        right: 80px;
+        top :10px;
+    }
+   
+
+    .ahmed .ar {
+        text-align: center;
+        font-size: 20px;
+        position: relative;
+        top: 230px;
+    }
+
+    .ahmed .ar>h1 {
+        text-align: center;
+        margin: auto;
+
+    }
+
+    .ahmed .home>img {
+        width: 60%;
+        margin: auto;
+        position: absolute;
+        bottom: 60%;
+
+    }
+
+    .all {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+
+    .a1 {
+        color: aliceblue;
+
+        margin: 10px 0px;
+
+        width: 70%;
+        height: 40px;
+        text-align: center;
+        font-size: 25px;
+        background-color: rgb(54, 54, 56);
+        box-shadow: 0px 0px 10px 0px rgba(79, 78, 78, 0.823);
+
+
+    }
+
+    .a1:hover {
+        background-color: beige;
+        color: rgb(198, 9, 9);
+        transition: 0.8s;
+
+
+    }
+
+    .ai {
+        height: 100px;
+        text-align: center;
+        color: aliceblue;
+        font-size: 23px;
+        margin-bottom: 25px;
+    }
+
+    .ai>h1 {
+
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .h1 {
+        margin-top: 78px;
+        text-align: center;
+        color: aliceblue;
+    }
+
+    .h1>p {
+        padding-top: 20px;
+        font-size: 25px;
+        margin: 0px 5px;
+    }
+
+    .h2 {
+        margin-top: 78px;
+        text-align: center;
+        color: aliceblue;
+    }
+
+    .h2>p {
+        padding-top: 20px;
+        font-size: 25px;
+        margin-bottom: 10px;
+        margin: 0px 5px;
+    }
+
+    .bro {
+        margin-top: 30px;
+        color: aliceblue;
+        border: 10px 20px solid red;
+        text-align: center;
+    }
+
+    .s1 {
+        justify-content: space-around;
+        display: flex;
+    }
+
+    .s1 .bro {
+        border-top: 5px solid red;
+        border-bottom: 5px solid red;
+        background-color: rgba(62, 61, 61, 0.724);
+     width: 440px;
+        height: auto;
+
+        margin: 20px;
+
+    }
+
+
+
+
+    .s1 .bro .top {
+        display: flex;
+        text-align: right;
+        justify-content: center;
+
+    }
+
+    .s1 .bro .s2 {
+        margin: 10px 20px;
+        font-size: 25px;
+
+    }
+
+    input {
+        background-color: rgb(66, 60, 60);
+        width: 150px;
+        height: 25px;
+    }
+
+    textarea {
+        background-color: rgb(66, 60, 60);
+    }
+
+    .s1 .bro .s4 {
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    .s1 .bro .s4 input {
+        width: 300px;
+    }
+
+    .s1 .bro .s5 {
+        margin-top: 10px;
+        font-size: 25px;
+    }
+
+    .s1 .bro .s9 {
+        width: 100px;
+        height: 30px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background-color: rgb(237, 14, 14);
+        color: azure;
+        box-shadow: 0px 0px 4px 0px white;
+        border-radius: 5px 5px;
+    }
+
+    
+
+
+    .g1 {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      
+    }
+
+    .g1 .f1 {
+        margin-top: 30px;
+        color: aliceblue;
+        border: 10px 20px solid red;
+        text-align: center;
+        padding-bottom: 30px;
+
+
+        border-top: 5px solid red;
+        border-bottom: 5px solid red;
+        background-color: rgba(62, 61, 61, 0.724);
+        width: 90%;
+        height: auto;
+
+
+    }
+
+    .g1 .f1 .f2 {
+        text-align: left;
+        padding: 10px 20px;
+
+    }
+
+    .g1 .f1 .f3 {
+        text-align: left;
+        padding: 10px 20px;
+    }
+
+    .g1 .f1 .f4 {
+        text-align: left;
+        padding: 10px 20px;
+    }
+
+    #cdl34 {
+        text-align: right;
+    }
+
+    .f1>iframe {
+        height: 40%;
+    }
+
+    .f1 #bdl15 {
+        color: #f40909;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+
+    .f1 #bdl15:hover {
+
+        border-radius: 100%;
+        padding: 10px;
+        color: black;
+        background-color: #f40909;
+    }
+
+    .d1 .d2 {
+        border-left: 5px solid red;
+        border-right: 5px solid red;
+        background-color: rgba(62, 61, 61, 0.724);
+        width: 95%;
+        height: 200px;
+
+        margin: 20px;
+    }
+}
