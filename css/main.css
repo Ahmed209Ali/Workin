@@ -401,6 +401,7 @@ textarea {
         position: relative;
         top: 230px;
     }
+   
 
     .ahmed .ar>h1 {
         text-align: center;
@@ -410,11 +411,9 @@ textarea {
 
     .ahmed .home>img {
         width: 60%;
-       
-      
-
+        height: auto;
+        
     }
-
     .all {
         flex-wrap: wrap;
         display: flex;
@@ -449,7 +448,7 @@ textarea {
         text-align: center;
         color: aliceblue;
         font-size: 23px;
-        margin-bottom: 25px;
+        margin: 25px 0px;
     }
 
     .ai>h1 {
@@ -499,7 +498,7 @@ textarea {
         border-top: 5px solid red;
         border-bottom: 5px solid red;
         background-color: rgba(62, 61, 61, 0.724);
-     width: 440px;
+     width: 350px;
         height: auto;
 
         margin: 20px;
@@ -524,7 +523,7 @@ textarea {
 
     input {
         background-color: rgb(66, 60, 60);
-        width: 150px;
+        width: 130px;
         height: 25px;
     }
 
