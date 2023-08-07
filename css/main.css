@@ -398,7 +398,9 @@ textarea {
     .ahmed .ar {
         text-align: center;
         font-size: 20px;
-        position: relative;
+        
+        padding: 1;
+         position: relative;
         top: 230px;
     }
    
@@ -412,7 +414,6 @@ textarea {
     .ahmed .home>img {
         width: 60%;
         height: auto;
-        
     }
     .all {
         flex-wrap: wrap;
@@ -448,7 +449,8 @@ textarea {
         text-align: center;
         color: aliceblue;
         font-size: 23px;
-        margin: 25px 0px;
+        margin: 30px 3px;
+      
     }
 
     .ai>h1 {
