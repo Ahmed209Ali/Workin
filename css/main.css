@@ -410,6 +410,12 @@ textarea {
         margin: auto;
 
     }
+    .ai>p{
+        display: none;
+    }
+    .ai>h1{
+        display: none;
+    }
 
     .ahmed .home>img {
         width: 60%;
