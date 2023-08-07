@@ -67,6 +67,10 @@ body {
     position: relative;
     top: 150px;
     left: 150px;
+    animation-name:move ;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 .ahmed .ar {
@@ -359,6 +363,15 @@ textarea {
     color: black;
     background-color: #f40909;
 }
+@keyframes move{
+    from{
+        top:8px;
+        
+    }
+    to{
+        bottom: 0px;
+    }
+}
 
 
 @media screen and (max-width : 740px) {
@@ -366,15 +379,19 @@ textarea {
         display: none;
     }
     .ahmed .main .tel{
-      position: relative;
-      left: 100px;
+        margin: 50px 30px; 
+    
+    }
+    .ahmed .main{
+      
+        display: inline;
+        
     }
 
     .ahmed .main .toggler{
         display: block;
-        position: relative;
-        right: 80px;
-        top :10px;
+        margin: 40px 30px;       
+      
     }
    
 
@@ -393,9 +410,8 @@ textarea {
 
     .ahmed .home>img {
         width: 60%;
-        margin: auto;
-        position: absolute;
-        bottom: 60%;
+       
+      
 
     }
 
